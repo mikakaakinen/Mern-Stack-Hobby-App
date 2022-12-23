@@ -1,0 +1,80 @@
+.top {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px 0 0 0;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    word-break: break-all;
+}
+
+.topIcon {
+    font-size: 30px;
+    margin-right: 10px;
+    color: #444;
+    cursor: pointer;
+}
+
+.topImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.topList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.topList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.topListItem {
+    font-family: 'Comfortaa', cursive;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    overflow: hidden; /* see note #2 */
+    text-overflow: ellipsis; /* see note #2 */
+    white-space: nowrap;
+}
+
+.logOut {
+    font-family: 'Comfortaa', cursive;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+ul > li {
+    display: inline;
+}
+
+@media only screen and (max-width: 768px) {
+    .link {
+        font-size: 18px;
+    }
+    .logOut {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .link {
+        font-size: 14px;
+    }
+    .logOut {
+        font-size: 14px;
+    }
+}

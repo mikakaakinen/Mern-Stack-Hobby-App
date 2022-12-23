@@ -1,0 +1,36 @@
+.footer {
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    max-width: 100%;
+    background-color: #0050a5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.h3 {
+    color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.span {
+    color: #ff0000;
+    display: inline;
+}
+
+@media only screen and (max-width: 768px) {
+    .h3 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .h3 {
+        font-size: 16px;
+    }
+}
